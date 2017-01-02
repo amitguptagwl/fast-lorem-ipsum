@@ -1,6 +1,6 @@
 {
   "name": "fast-lorem-ipsum",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate Lorem Ipsum string fast",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,13 @@
     "LoremIpsum",
     "generate"
   ],
-  "author": "Amit Gupta",
-  "license": "MIT"
+  "author": "Amit Gupta (https://github.com/amitguptagwl)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitguptagwl/fast-lorem-ipsum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amitguptagwl/fast-lorem-ipsum/issues"
+  }
 }
