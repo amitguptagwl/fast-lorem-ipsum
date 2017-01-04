@@ -1,10 +1,13 @@
 {
   "name": "fast-lorem-ipsum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate Lorem Ipsum string fast",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "loremipsum": "fli.js"
   },
   "keywords": [
     "fast",
