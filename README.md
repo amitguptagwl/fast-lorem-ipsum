@@ -13,7 +13,12 @@ fastLoremIpsum("10c");
 fastLoremIpsum("100w");
 
 fastLoremIpsum(10,'c');
-fastLoremIpsum(100, 'w');
+
+//Performance result (Tested on Chrome 55.0.2883 / Ubuntu (Linux) )
+fastLoremIpsum(100, 'w');  //34,783,141 calls/ps
+fastLoremIpsum(1000, 'w'); //31,239,051 calls/ps
+fastLoremIpsum(3000, 'w'); //17,811,509 calls/ps
+fastLoremIpsum(5000, 'w'); //12,929,931 calls/ps
 
 ```
 
