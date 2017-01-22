@@ -29,3 +29,5 @@ $npm install fast-lorem-ipsum -g
 $loremipsum -c 5
 $loremipsum -w 5
 ```
+
+Performance comparision at [coparejs](https://naturalintelligence.github.io/comparejs/?q=lorem-ipsum-vs-fast-lorem-ipsum). Worth to check
