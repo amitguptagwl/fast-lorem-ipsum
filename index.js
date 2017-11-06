@@ -4,10 +4,10 @@ var sPostion = [5,11,17,21,27,39,50,55,58,67,73,77,82,89,100,107,113,123,129,139
 //len : 100w, 1000c
 exports.fastLoremIpsum= function(len,wc){
     if(wc){
+        exports.fLI(len,wc);
+    }else{
         var l = len.substr(0,len.length -1);
         return exports.fLI(l,len.charAt(len.length - 1))
-    }else{
-        exports.fLI(len,wc);
     }
 }
 
