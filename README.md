@@ -1,4 +1,4 @@
-# fast-lorem-ipsum
+# [fast-lorem-ipsum](https://www.npmjs.com/package/fast-lorem-ipsum)
 Generate Lorem Ipsum text quickly
 
 **To use in a project**
