@@ -31,3 +31,5 @@ $loremipsum -w 5
 ```
 
 Performance comparision at [coparejs](https://naturalintelligence.github.io/comparejs/?q=lorem-ipsum-vs-fast-lorem-ipsum). Worth to check
+
+![benchmark lorem ipsum](assets/img/lorem-ipsum.png)
