@@ -4,7 +4,8 @@
   "description": "Generate Lorem Ipsum string fast",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine test/*test.js",
+    "bundle": "browserify index.js -s parser -o dist/fli.js"
   },
   "bin": {
     "loremipsum": "fli.js"
@@ -24,5 +25,10 @@
   },
   "bugs": {
     "url": "https://github.com/amitguptagwl/fast-lorem-ipsum/issues"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "jasmine": "^3.0.0",
+    "jasmine-core": "^2.99.1"
   }
 }
