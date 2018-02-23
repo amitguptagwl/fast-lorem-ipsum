@@ -35,7 +35,15 @@ $loremipsum -w 5
 Download and Include [fli.js](dist/fli.js) and use as per above snippet.
 
 
-
+### Benchmark
 Performance comparision at [coparejs](https://naturalintelligence.github.io/comparejs/?q=lorem-ipsum-vs-fast-lorem-ipsum). Worth to check
 
 ![benchmark lorem ipsum](assets/img/lorem-ipsum.png)
+
+
+### Worth to mention
+
+ - [stubmatic](https://github.com/NaturalIntelligence/Stubmatic) : A stub server to mock behaviour of HTTP(s) / REST / SOAP services.
+ - **[fastify-xml-body-parser](https://github.com/NaturalIntelligence/fastify-xml-body-parser/)** : Fastify plugin / module to parse XML payload / body into JS object using fast-xml-parser.
+  - [fast-lorem-ipsum](https://github.com/amitguptagwl/fast-lorem-ipsum) : Generate lorem ipsum words, sentences, paragraph very quickly.
+- [Grapes](https://github.com/amitguptagwl/grapes) : Flexible Regular expression engine which can be applied on char stream. (under development)
