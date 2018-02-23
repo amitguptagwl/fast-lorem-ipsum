@@ -1,4 +1,4 @@
-var fli = require("../index").fastLoremIpsum;
+var fli = require("../index");
 
 describe("Lorem Ipsum Generator", function () {
 

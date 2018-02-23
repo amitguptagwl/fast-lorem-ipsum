@@ -7,7 +7,7 @@ $npm install fast-lorem-ipsum
 ```
 
 ```javascript
-var fastLoremIpsum = require('fast-lorem-ipsum').fastLoremIpsum;
+var fastLoremIpsum = require('fast-lorem-ipsum');
 
 fastLoremIpsum("10c");
 fastLoremIpsum("100w");
@@ -29,6 +29,12 @@ $npm install fast-lorem-ipsum -g
 $loremipsum -c 5
 $loremipsum -w 5
 ```
+
+**To use from browser**
+
+Download and Include [fli.js](dist/fli.js) and use as per above snippet.
+
+
 
 Performance comparision at [coparejs](https://naturalintelligence.github.io/comparejs/?q=lorem-ipsum-vs-fast-lorem-ipsum). Worth to check
 

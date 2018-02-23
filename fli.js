@@ -31,11 +31,11 @@ if(type == "" || len==0){
 	console.log("invalid arguments");
 }else{
 	if(toClipboard){
-		clipboard.copy(fli.fLI(len,type),function(e){
+		clipboard.copy(fli(len,type),function(e){
 			console.log("Failed to copy to the clipboard. " + e);
 		});
 		console.log("Copied to clipboard");
 	}else{
-		console.log(fli.fLI(len,type))
+		console.log(fli(len,type))
 	}
 }
